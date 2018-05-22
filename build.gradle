@@ -1,0 +1,16 @@
+plugins {
+    id 'java-library'
+    id 'application'
+}
+
+mainClassName = "RedshiftCopy"
+
+dependencies {
+  compile(
+    'org.postgresql:postgresql:42.2.2'
+  )
+}
+
+repositories {
+    jcenter()
+}
